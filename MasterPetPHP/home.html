@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#E6E6FA">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">MasterPet</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>
+      <li><a href="listarClientes.php">Clientes</a></li>
+      <li><a href="listarAnimais.php">Animais</a></li>
+      <li><a href="listarTratamento.php">Tratamento</a></li>
+      <li><a href="listarCidades.php">Cidades</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<h1 align="center"><img src="banner2.png" class="img-rounded" alt="Cinque Terre" width="350" height="150" align="center"></h1>
+	<br/>
+<h1 align="center"><button type="button" class="btn btn-primary" align="center" id="bt_novo" 
+	onclick="javascript: location.href='listarClientes.php' ">Clientes</button></h1>
+	<br/>
+<h1 align="center"><button type="button" class="btn btn-primary" align="center" id="bt_novo" 
+	onclick="javascript: location.href='listarAnimais.php' ">Animais</button></h1>
+	<br/>
+<h1 align="center"><button type="button" class="btn btn-primary" align="center" id="bt_novo" 
+	onclick="javascript: location.href='listarTratamento.php' ">Tratamentos</button></h1>
+	<br/>
+<h1 align="center"><button type="button" class="btn btn-primary" align="center" id="bt_novo" 
+	onclick="javascript: location.href='listarCidades.php' ">Cidades</button></h1>
+	<br/>
+<br><br>
+<div class="container">
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" align="center">2BCC</button>
+
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+ 
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">MasterPet</h4>
+        </div>
+        <div class="modal-body">
+          <p>Site criado por Addam Caue e Pedro Luiz Foganholi.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Bye</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
